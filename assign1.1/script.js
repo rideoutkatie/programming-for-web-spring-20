@@ -12,3 +12,8 @@ function draw() {
 	}
 	ellipse(mouseX,mouseY, 80, 80); 
 	} 
+
+
+console.log("Hello, world!");
+let username = prompt("what is your name?");
+console.log("Hi, " + username)
