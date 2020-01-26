@@ -1,6 +1,6 @@
 let grid = undefined;
-//let stroke1 = prompt("enter a basic color name in lower case", "gray");
-//let stroke2 = prompt("enter another basic color name in lower case", "purple");
+let stroke1 = prompt("enter a basic color name in lower case", "orange");
+let stroke2 = prompt("enter another basic color name in lower case", "brown");
 function setup (){
 	createCanvas(1000, 800);
 	background("#ccc");
@@ -8,9 +8,12 @@ function setup (){
 }
 
 function draw(){
-	background(grid);
+	//background(grid);
+	//snow
+	fill("#d0eff8");
+	rect(0,600,1000,200);
 	//arms
-	stroke("black");
+	stroke(stroke1);
 	strokeWeight(20);
 	line(350,400,200,200);
 	line(650,400,800,200);
@@ -28,11 +31,11 @@ function draw(){
 	//head
 	ellipse(500, 200, 200);
 	//hat brim
-	stroke("purple");
+	stroke(stroke2);
 	strokeWeight(40);
 	line(400,120,600,120);
 	//hat body
-	quad(400, 50, 600, 50, 550, 120, 450, 120);
+	quad(400, 50, 500, 50, 550, 120, 450, 120);
 	//eyes
 	stroke(0);
 	strokeWeight(20);
