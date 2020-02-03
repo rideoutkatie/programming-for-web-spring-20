@@ -6,6 +6,10 @@ const myQuiz= [
 	
 ];
 
-const myRandomIndex = myQuiz[Math.round(Math.random() * myQuiz.Length - 1)];
-let userAnswer = window.prompt(myQuiz[myRandomIndex].question);
-window.alert('Your answer was' + ' ' + userAnswer + '. ' + 'The correct answer is' + ' ' + myRandomIndex.answer + '. ')
+const myRandomIndex = myQuiz[Math.round(Math.random() * myQuiz.length - 1)];
+
+//console.log('random', myRandomIndex);
+//const firstQuestion = window.prompt(myQuiz[myRandomIndex].question);
+let userAnswer = prompt(myRandomIndex.question, ' ');
+
+alert('Your answer was ' + '" ' + userAnswer + '." ' + 'The correct answer is:' + ' ' + myRandomIndex.answer + '. ')
