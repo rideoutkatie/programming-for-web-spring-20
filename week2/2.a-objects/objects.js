@@ -7,5 +7,5 @@ const myQuiz= [
 ];
 
 const myRandomIndex = myQuiz[Math.round(Math.random() * myQuiz.Length - 1)];
-let userAnswer = prompt(myRandomIndex.question, '');
+let userAnswer = window.prompt(myQuiz[myRandomIndex].question);
 window.alert('Your answer was' + ' ' + userAnswer + '. ' + 'The correct answer is' + ' ' + myRandomIndex.answer + '. ')
