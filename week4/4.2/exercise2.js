@@ -1,22 +1,35 @@
-rectX = 0;
+let rectX = 0;
+const rectHeight = 75;
+let rectY;
+
 const rectWidth = 75;
+let clickCount = 0;
+let speed;
 function setup() {
 	createCanvas(500, 500);
+	rectY = random(height - rectHeight);
+	speed = random(1,3);
 
 }
 
 function draw() {
 	background(155);
 	drawShape();
-	rectX += 2;
-}
+	rectX += speed;
+		if (rectX > width) {
+		noLoop();
+		text('Your Score was ' + clickCount, 100, 300)
+}}
 function mousePressed() {
 	if ((mouseX >= rectX && mouseX <= rectX 
-+ rectWidth) && (mouseY >= 0 && mouseY <= 75)) {
-		console.log('hit');
++ rectWidth) && (mouseY >= rectY && mouseY <= rectHeight)) {
+		clickCount++;
+		console.log('hit', clickCount);
 	}
-}
+
+	}
+
 function drawShape() {
 	fill('purple');
-	rect(rectX, 0, rectWidth, 75);
+	rect(rectX, rectY, rectWidth, 75);
 }
