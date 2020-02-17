@@ -1,4 +1,4 @@
-const cardWidth = 120;
+const cardWidth = 200;
 const cardHeight = 200;
 //let circleX = 200;
 //let circleY = 300;
@@ -8,7 +8,7 @@ const cardHeight = 200;
 
 //let myCircles = [];
 function setup () {
-	createCanvas(1000,500);
+	createCanvas(1250,500);
 	background(255);
 	stroke(1);
 	
@@ -27,9 +27,9 @@ function setup () {
 		//console.log(myCircles);
 	}
  function draw (){
-	 for (let i = 50; i < 1000; i += 150){
-					 rect(i, 50, cardWidth, cardHeight);
-					 rect(i, 300, cardWidth, cardHeight);
+	 for (let i = 10; i < 1000; i += 230){
+					 rect(i, 10, cardWidth, cardHeight);
+					 rect(i, 250, cardWidth, cardHeight);
 	 }
 	 
  }
