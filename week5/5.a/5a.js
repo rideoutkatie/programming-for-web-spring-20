@@ -5,7 +5,7 @@ let startingY = 100;
 let cards = [];
 
 const gameState = {
-	totalPairs: 0,
+	totalPairs: 5,
 	flippedCards: [],
 	numMatched: 0,
 	attempts: 0,
@@ -37,7 +37,7 @@ let cardBack;
 				const face = cardFaceArray[randomIdx];
 					selectedFaces.push(face);
 					selectedFaces.push(face);
-				//remove the used cardface so it doesn't get randomly selected again
+				//remove the used cardFace so it doesn't get randomly selected again
 					cardFaceArray.splice(randomIdx, 1); 
 		}
 				selectedFaces = shuffleArray(selectedFaces);
@@ -52,63 +52,64 @@ let cardBack;
 				startingX = 100;
 	}
 }
+
 		
 	function draw () {
-		background('0');
+		background(255);
 		if (gameState.numMatched === gameState.totalPairs) {
 			fill('yellow');
 			textSize(66);
 			text('you win!', 100, 720);
 			noLoop();
 		}
-		for (let k=0; k < cards.length; k++) {
+		for (let k = 0; k < cards.length; k++) {
 				if (!cards[k].isMatch) {
-						cards[k].face = DOWN;
+					cards[k].face = DOWN;
 				}
 					cards[k].show();
-				}
+		}
 		noLoop();
 		gameState.flippedCards.length = 0;
 		gameState.waiting = false;
-		fill(122);
+		fill(155);
 		textSize(36);
 		text('Attempts: ' + gameState.attempts, 100, 600);
 		text('Matches: ' + gameState.numMatched, 100, 650);
 	}
 
 
-	function mousePressed() {
-		if (gameState.waiting) {
-				return;
-		}
-		for (let k = 0; k < cards.length; k++) {
-			//first check flipped cards length, then trigger the flip
-			if (gameState.flippedCards.length < 2 && cards[k].didHit(mouseX, mouseY)) {
-				console.log('flipped', cards[k]);
-				gameState.flippedCards.push(cards[k]);
-			}
-		}
-		if (gameState.flippedCards.length === 2) {
-				gameState.attempts++;
-				if (gameState.flippedCards[0].cardFaceImg === gameState.flippedCards[1].cardFaceImg) {
-					//cards match. time to score. 
-					//mark cards as matched so they don't flip back
-					gameState.flippedCards[0].isMatch = true;
-					gameState.flippedCards[1].isMatch = true;
-					//empty the flipped cards array
-					gameState.flippedCards.length = 0;
-					//increment the score
-					gameState.numMatched++;
-					loop();
-				} else {
-						gameState.waiting = true;
-						const loopTimeout = window.setTimeout(() => {
-							loop();
-							window.clearTimeout(loopTimeout);
-						}, 1000)
-				}
+function mousePressed() {
+	if (gameState.waiting) {
+			return;
+	}
+	for (let k = 0; k < cards.length; k++) {
+		//first check flipped cards length, then trigger the flip
+		if (gameState.flippedCards.length < 2 && cards[k].didHit(mouseX, mouseY)) {
+			console.log('flipped', cards[k]);
+			gameState.flippedCards.push(cards[k]);
 		}
 	}
+	if (gameState.flippedCards.length === 2) {
+			gameState.attempts++;
+			if (gameState.flippedCards[0].cardFaceImg === gameState.flippedCards[1].cardFaceImg) {
+				//cards match. time to score. 
+				//mark cards as matched so they don't flip back
+				gameState.flippedCards[0].isMatch = true;
+				gameState.flippedCards[1].isMatch = true;
+				//empty the flipped cards array
+				gameState.flippedCards.length = 0;
+				//increment the score
+				gameState.numMatched++;
+				loop();
+			} else {
+					gameState.waiting = true;
+					const loopTimeout = window.setTimeout(() => {
+						loop();
+						window.clearTimeout(loopTimeout);
+					}, 1000)
+			}
+	}
+}
 
 
 class Card {
@@ -122,20 +123,20 @@ class Card {
 		this.isMatch = false;
 		this.show();
 		
-		
-	}
-	show () {
-			if(this.face === UP || this.isMatch) {
-				fill(255);
-				rect(this.x, this.y, this.width, this.height, 10);
-				image(this.cardFaceImg, this.x, this.y);
+}
 	
-		} else {
-				
-				rect(this.x, this.y, this.width, this.height, 10);
-				image(cardBack, this.x, this.y);
-			}
+show () {
+		if (this.face === UP || this.isMatch) {
+			fill(255);
+			rect(this.x, this.y, this.width, this.height, 10);
+			image(this.cardFaceImg, this.x, this.y);
+
+	} else {
+			fill(255);
+			rect(this.x, this.y, this.width, this.height, 10);
+			image(cardBack, this.x, this.y);
 		}
+	}
 
 	didHit (mouseX, mouseY) {
 				if (mouseX >= this.x && mouseX <= this.x + this.width && mouseY >= this.y && mouseY <= this.y + this.height) {
@@ -146,28 +147,28 @@ class Card {
 				}
 	}
 
-			flip () {
-					if (this.face === DOWN) {
-							this.face = UP;
+	flip () {
+			if (this.face === DOWN) {
+					this.face = UP;
 
-					} else {
-						this.face = DOWN;
-					}
-						this.show();
-				}
-		}
-
-			function shuffleArray (array) {
-					let counter = array.length;
-					while (counter > 0) {
-							// Pick random index
-							const idx = Math.floor(Math.random() * counter);
-							// decrease counter by 1 (decrement)
-							counter--;
-							// swap the last element with it
-							const temp = array[counter];
-							array[counter] = array[idx];
-							array[idx] = temp;
-					}
-					return array;
+			} else {
+				this.face = DOWN;
 			}
+				this.show();
+		}
+	}
+
+function shuffleArray (array) {
+		let counter = array.length;
+		while (counter > 0) {
+				// Pick random index
+				const idx = Math.floor(Math.random() * counter);
+				// decrease counter by 1 (decrement)
+				counter--;
+				// swap the last element with it
+				const temp = array[counter];
+				array[counter] = array[idx];
+				array[idx] = temp;
+		}
+		return array;
+}
