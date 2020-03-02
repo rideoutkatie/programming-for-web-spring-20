@@ -54,11 +54,11 @@ let cardBack;
 }
 		
 	function draw () {
-		background('');
+		background('0');
 		if (gameState.numMatched === gameState.totalPairs) {
-			fill('');
+			fill('yellow');
 			textSize(66);
-			text('you win!', 0, 0);
+			text('you win!', 100, 720);
 			noLoop();
 		}
 		for (let k=0; k < cards.length; k++) {
