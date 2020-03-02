@@ -31,25 +31,25 @@ let cardBack;
 		createCanvas(1430,1000);
 		background(255);
 	
-	let selectedFaces = [];
-	for (let z = 0; z < 5; z++) {
-			const randomIdx = floor(random(cardFaceArray.length));
-			const face = cardFaceArray[randomIdx];
-				selectedFaces.push(face);
-				selectedFaces.push(face);
-			//remove the used cardface so it doesn't get randomly selected again
-				cardFaceArray.splice(randomIdx, 1); 
-	}
-			selectedFaces = shuffleArray(selectedFaces);
-	for (let j = 0; j < 2; j++) {
-	for (let i = 0; i < 5; i++) {
-			const faceImage = selectedFaces.pop();
-			cards.push(new Card(startingX, startingY, faceImage));
-			startingX += 250;
-		
-			}
-			startingY += 250;
-			startingX = 100;
+		let selectedFaces = [];
+		for (let z = 0; z < 5; z++) {
+				const randomIdx = floor(random(cardFaceArray.length));
+				const face = cardFaceArray[randomIdx];
+					selectedFaces.push(face);
+					selectedFaces.push(face);
+				//remove the used cardface so it doesn't get randomly selected again
+					cardFaceArray.splice(randomIdx, 1); 
+		}
+				selectedFaces = shuffleArray(selectedFaces);
+		for (let j = 0; j < 2; j++) {
+		for (let i = 0; i < 5; i++) {
+				const faceImage = selectedFaces.pop();
+				cards.push(new Card(startingX, startingY, faceImage));
+				startingX += 250;
+
+				}
+				startingY += 250;
+				startingX = 100;
 	}
 }
 		
