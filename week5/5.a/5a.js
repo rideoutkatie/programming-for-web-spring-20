@@ -29,7 +29,7 @@ let cardBack;
 	}
 	function setup() {
 		createCanvas(1430,1000);
-		background(0);
+		background(255);
 	
 	let selectedFaces = [];
 	for (let z = 0; z < 5; z++) {
