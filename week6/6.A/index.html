@@ -1,0 +1,29 @@
+<head>
+  <title>
+    Llamas
+  </title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+    <div id="llamas">
+    <div class = "content">
+        <h1>{{animalOne}} are not {{ animalTwo }}.</h1>
+			 <h3 v-if="evenIf">This llama is wearing a bridle.</h3>
+		
+			   <h3 v-else>I don't know what to tell ya</h3>
+				
+				<div class="product-image">
+        <img v-bind:src="image"/>
+						</div>
+					
+				
+        <ul>
+          <li v-for="detail in details"><h4>Llamas {{ detail }}.</h4></li>
+        </ul>
+         
+        </div>
+      </div>
+   
+     <script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js">
+    </script>
+    <script src="script.js"></script>

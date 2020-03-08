@@ -1,0 +1,33 @@
+ body {
+    font-family: tahoma;
+    margin: 0px;
+	  background: linear-gradient(-90deg, #84CF6A, #16C0B0);
+ 
+  }
+
+h1, h3 {
+	margin-top: 20px;
+	margin-left: 60px;
+	margin-bottom: 0px;
+	
+}
+
+ul{
+	margin: 40px;
+	font-size: 14px;
+	list-style: none;
+}
+  img {
+    border: 5px solid #d8d8d8;
+    width: 70%;
+    margin: 40px;
+    box-shadow: 0px .5px 1px #d8d8d8;
+  }
+  
+  image {
+    width: 80%;
+  }
+
+
+
+ 
