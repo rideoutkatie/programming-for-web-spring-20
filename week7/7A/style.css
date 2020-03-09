@@ -1,3 +1,6 @@
+v-cloak{
+	display: none;
+}
 body {
 	background-color: #212F3D;
 	text-align: left;
@@ -22,8 +25,7 @@ table{
 	position: absolute;
 	top: 120px;
 	padding: 10px;
-	z-index: -10;
-	
+	z-index: -10	
 	
 }
 
