@@ -1,0 +1,35 @@
+<!doctype html>
+
+<html>
+  <head>
+    <title>Looping</title>
+    <link rel="stylesheet" href="style.css">
+    
+  </head>
+
+  <body>
+    <h1>Looping!</h1>
+    <div id="app" v-cloak>
+			<table>
+				<thead>
+					<th>complete</th>
+					<th>task</th>
+				</thead>
+				<tbody>
+					<tr v-for="(task, index) in todos" 
+						:class="{even: (index +1)  % 2 === 0, odd: (index + 1) % 2 !== 0}">
+						
+						<td v-bind:class="{completed:task.completed}">{{task.completed}}</td>
+						
+						<td v-bind:class="{completed:task.completed}">{{task.title}}</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		
+
+
+   <script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+body {
+		background-color: coral;
+}
+
+h1 {
+	color: white;
+	letter-spacing: 1.5px;
+
+}
+
+ul{
+	color: white;
+	font-size: 12px;
+	letter-spacing: .5px;
+}
+
+.completed{
+	text-decoration: line-through;
+}
+
+.odd{
+	background: #ccc;
+}
+
+.even{
+	background: #eee;
+}
+
