@@ -1,0 +1,35 @@
+body {
+		background-color: coral;
+}
+
+h1 {
+	color: white;
+	letter-spacing: 1.5px;
+
+}
+
+h6 a {
+	font-family: sans-serif;
+	text-decoration: none;
+	color: white;
+/*color:chartreuse*/
+	letter-spacing: 1px;
+	
+}
+
+h6 a:hover {
+	color: aqua;
+}
+
+ul{
+	color: white;
+	font-size: 12px;
+	letter-spacing: .5px;
+}
+.list-name{
+	font-size: 16px;
+	list-style: none;
+	font-family: sans-serif;
+	margin-left: -15px;
+	margin-bottom: 5px;
+}

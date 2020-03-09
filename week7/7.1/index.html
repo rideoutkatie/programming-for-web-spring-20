@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Llamas v Alpacas</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		
+		<h1>Llamas v Alpacas</h1>
+		<div id="app" v-cloak>
+			<h6><a :href="wikiLlama"
+						 :style="{border: '3px white solid'}"
+						 >Click here to get info on Llamas</a></h6>
+			<h6><a :href="wikiAlpaca"
+						 :style="{border: '3px white solid'}"
+						 >Click here to get info on Alpacas</a></h6>
+			
+			
+			<ul>
+				<li class="list-name">Llamas</li>
+			 <li v-for="detail in detailsLlama"
+					 :style="{color: 'aqua'}"> {{ detail}}</li>
+			</ul>
+			<ul>
+					<li class="list-name">Alpacas</li>
+			 <li v-for="detail in detailsAlpaca"
+					  :style="{color: 'chartreuse'}">{{ detail }}</li>
+			</ul>
+		</div>
+		    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js">
+    </script>
+    <script src="script.js"></script>
+	</body>
+</html>
