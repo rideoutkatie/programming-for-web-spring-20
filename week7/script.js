@@ -42,7 +42,20 @@ var app = new Vue ({
 		inStock() {
 			return this.variants[this.selectedVariant].variantQuantity
 	}
-	}
+	},
+		Vue.component('product-review', {
+			template: '
+				<input v-model="name">
+			',
+				data(){
+					return {
+						name: null,
+						review: null,
+						rating: null
+}
+}
+})
+	
 })
 
 
