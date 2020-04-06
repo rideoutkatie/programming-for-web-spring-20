@@ -1,0 +1,74 @@
+<!doctype html>
+
+<html>
+  <head>
+		<title>assignment 9A</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+		<div id="app">
+		 <table>
+				<thead>
+					<th>color name</th>
+					<th>paint color</th>
+					<th>series</th>
+					<th>transparency</th>
+					<th>description</th>
+				</thead>			
+			<tbody>
+		<h1>Paint</h1> 
+		<tr is="paint-component" v-for="(paint, index) in paints"
+		
+				v-bind:color-name="paint.colorName"
+				v-bind:image="paint.image" 
+				v-bind:series="paint.series" 
+				v-bind:transparency="paint.transparency" 
+				v-bind:description="paint.description">
+		
+			</tr>
+	</tbody>
+<!--
+			<tr v-for="(paint, index) in paints">
+				<td>{{paint.colorName}}</td>
+				<td class="paint.image"><img :src="paint.image" :alt="paint.name" /></td>
+				<td>{{paint.series}}</td>
+				<td>{{paint.transparency}}</td>
+				<td>{{paint.description}}</td>
+				<td><button v-on:click="deleteItem(paint)">Delete</button></td>
+			</tr>
+-->
+		</table>
+			<form v-on:submit.prevent="submitHandler">
+			<fieldset>
+				<legend>Add a Color to the collection</legend>
+					<div>
+						<label for="color-name">Color Name</label>
+						<input id="color-name" type="text" v-model="newPaintObj.colorName">
+					</div>
+					<div>
+						<label for="image">Image</label>
+						<input id="image" type="text" v-model="newPaintObj.image">
+					</div>
+					<div>
+						<label for="series">Series</label>
+						<input id="series" type="text" v-model="newPaintObj.series">
+					</div>
+					<div>
+						<label for="transparency">Transparency</label>
+						<input id="transparency" type="text" v-model="newPaintObj.transparency">
+					</div>
+					<div>
+						<label for="description">Description</label>
+						<input id="description" type="text" v-model="newPaintObj.description">
+					</div>
+				<div>
+				<button type="submit">Submit</button>
+				</div>
+			</fieldset>
+			</form>
+			
+		</div>
+		<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+		 <script src="script.js"></script>
+  </body>
+</html>
