@@ -92,4 +92,10 @@ var vm = new Vue({
 			});
 		}
 	}
+	
+//	function mainjsfunction(vm.newPaintObj)
+//{
+//    console.log(vm.newPaintObj.colorName);  
+//    //do something with input field value
+//}
 });

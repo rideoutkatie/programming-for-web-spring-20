@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+			  <meta charset="UTF-8">
+			  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+			  <script src="node_modules/axios/dist/axios.js"></script>
+        <script src="node_modules/vue/dist/vue.js"></script>
+			  <link rel="stylesheet" href="/lib/style.css">
+        <title>10A</title>
+    </head>
+	
+    <body>
+			<h1>Make Up</h1>
+			<div id="app" class="wrapper">
+	
+				<my-make-up :product="product" v-for="product in makeUp" class="wrapper-item"></my-make-up>
+			</div>
+		<script src="js/script.js"></script>
+			
+    </body>
+</html>
