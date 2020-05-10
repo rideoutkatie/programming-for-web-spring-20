@@ -1,0 +1,494 @@
+[
+    {
+        "rank":1,
+        "title":"Bronze",
+        "medium":"Charcoal and Pastel",
+        "size":"30x72 inches",
+        "cover":"https://krideout.studio.mcad.edu/portfolio/imgs/Bronze.jpg",
+        "position":{
+            "positionLastWeek":1,"peakPosition":1,"weeksOnChart":12
+        }
+    },
+    {
+        "rank":2,
+        "title":"Brow",
+        "medium":"Charcoal, Conte, Pastel",
+        "size":"30x72 inches",
+        "cover":"https://krideout.studio.mcad.edu/portfolio/imgs/Brow.jpg",
+        "position":{
+            "positionLastWeek":2,"peakPosition":2,"weeksOnChart":7
+        }
+    },
+    {
+        "rank":3,
+        "title":"Jade",
+        "medium":"Charcoal and Pastel",
+        "size":"30x72 inches",
+        "cover":"https://krideout.studio.mcad.edu/portfolio/imgs/Jade.jpg",
+        "position":
+            {
+                "positionLastWeek":null,"peakPosition":3,"weeksOnChart":1
+            }
+    },
+    {
+        "rank":4,
+        "title":"Seventh",
+        "medium":"Charcoal Pastel",
+        "size":"30x72 inches",
+        "cover":"https://krideout.studio.mcad.edu/portfolio/imgs/seventh.jpg",
+        "position"
+        :{"positionLastWeek":10,"peakPosition":4,"weeksOnChart":11}
+    },
+    {
+        "rank":5,
+        "title":"Eighth",
+        "medium":"Justin Bieber Featuring Quavo",
+        "cover":"https://krideout.studio.mcad.edu/portfolio/imgs/Eighth.jpg",
+        "position":
+            {
+                "positionLastWeek":3,"peakPosition":3,"weeksOnChart":3
+            }
+    },
+    {
+        "rank":6,
+        "title":"Eleventh",
+        "medium":"Charcoal and Pastel",
+        "size":"30x72 inches",
+        "cover":"https://krideout.studio.mcad.edu/portfolio/imgs/Eleventh.jpg",
+        "position"
+        :{"positionLastWeek":9,"peakPosition":1,"weeksOnChart":17}
+    },
+    {
+        "rank":7,
+        "title":"Fifth",
+        "medium":"Charcoal and Pastel",
+        "size":"30x72 inches",        
+        "cover":"https://krideout.studio.mcad.edu/portfolio/imgs/Fifth.jpg",
+        "position"
+        :{"positionLastWeek":7,"peakPosition":4,"weeksOnChart":19}
+    },
+    {
+        "rank":8,
+        "title":"Fly",
+        "medium":"Charcoal and Conte",
+        "size":"30x72 inches",        
+        "cover":"https://krideout.studio.mcad.edu/portfolio/imgs/Fly.jpg",
+        "position"
+        :{"positionLastWeek":null,"peakPosition":8,"weeksOnChart":1}
+    },
+    {
+        "rank":9,
+        "title":"Fourth",
+        "size":"30x72 inches",        
+        "medium":"Charcoal, Conte and Pastel",
+        "cover":"https://krideout.studio.mcad.edu/portfolio/imgs/Fourth.jpg",
+        "position":
+            {
+                "positionLastWeek":8,"peakPosition":3,"weeksOnChart":8
+            }
+    },
+    {
+        "rank":10,
+        "title":"Golden-Joinery",
+        "medium":"Dua Lipa",
+        "size":"Mixed Media",
+        "cover":"https://krideout.studio.mcad.edu/portfolio/imgs/Golden-Joinery.jpg",
+        "position"
+        :{"positionLastWeek":12,"peakPosition":10,"weeksOnChart":10}
+    },
+    {
+        "rank":11,
+        "title":"Ninth",
+        "medium":"Charcoal, Conte and Pastel",
+        "size":"30x72 inches",
+        "cover":"https://krideout.studio.mcad.edu/portfolio/imgs/Ninth.jpg",
+        "position"
+        :{"positionLastWeek":31,"peakPosition":11,"weeksOnChart":2}
+    },
+    {
+        "rank":12,
+        "title":"Third",
+        "medium":"Mixed Media",
+        "size":"30x72 inches",
+        "cover":"https://krideout.studio.mcad.edu/portfolio/imgs/Third.jpg",
+        "position":
+            {
+                "positionLastWeek":null,"peakPosition":12,"weeksOnChart":1
+            }
+    },
+    {
+        "rank":13,
+        "title":"Gia",
+        "medium":"Charcoal, Conte and Pasel",
+        "size":"30x72 inches",
+        "cover":"https://krideout.studio.mcad.edu/portfolio/imgs/gia.jpg",
+        "position"
+        :{"positionLastWeek":14,"peakPosition":6,"weeksOnChart":24}
+    },
+    {
+        "rank":14,
+        "title":"Ninth",
+        "medium":"Charcoal, Conte and Pastel",
+        "size":"30x72 inches",
+        "cover":"https://krideout.studio.mcad.edu/portfolio/imgs/Ninth.png",
+        "position"
+        :{"positionLastWeek":15,"peakPosition":2,"weeksOnChart":26}
+    },
+    {
+        "rank":15,
+        "title":"Falling",
+        "medium":"Trevor Daniel",
+        "size":"30x72 inches",
+        "cover":"https://krideout.studio.mcad.edu/portfolio/imgs/seventh.png",
+        "position"
+        :{"positionLastWeek":13,"peakPosition":11,"weeksOnChart":14}
+    },
+    {
+        "rank":16,
+        "title":"Yummy",
+        "medium":"Justin Bieber",
+        "cover":"https://krideout.studio.mcad.edu/portfolio/imgs/Third.png",
+        "position"
+        :{"positionLastWeek":4,"peakPosition":2,"weeksOnChart":8}
+    },
+    {
+        "rank":17,
+        "title":"Red Eye",
+        "medium":"YoungBoy Never Broke Again",
+        "size":"30x72 inches",
+        "cover":"https://krideout.studio.mcad.edu/portfolio/imgs/gia.png",
+        "position"
+        :{"positionLastWeek":null,"peakPosition":17,"weeksOnChart":1}
+    },
+    {
+        "rank":18,
+        "title":"drawing",
+        "medium":"charcoal and pastel",
+        "size":"30x72 inches",
+        "cover":"https://krideout.studio.mcad.edu/portfolio/imgs/african-girl-drawing.jpg",
+        "position":
+            {
+                "positionLastWeek":17,"peakPosition":2,"weeksOnChart":21
+            }
+    },
+    {
+        "rank":19,
+        "title":"drawing",
+        "medium":"Charcoal",
+        "size":"30x72 inches",
+        "cover":"https://krideout.studio.mcad.edu/portfolio/imgs/hijab-drawing.jpg",
+        "position":
+            {
+                "positionLastWeek":16,"peakPosition":2,"weeksOnChart":14
+            }
+    },
+    {
+        "rank":20,
+        "title":"fly 2",
+        "medium":"charcoal conte and pastel",
+        "size":"30x72 inches",
+        "cover":"https://krideout.studio.mcad.edu/portfolio/imgs/fly2.jpg",
+        "position"
+        :{"positionLastWeek":18,"peakPosition":3,"weeksOnChart":6}
+    },
+    {
+        "rank":21,
+        "title":"drawing",
+        "medium":"charcoal and pastel",
+        "size":"30x72 inches",
+        "cover":"https://krideout.studio.mcad.edu/portfolio/imgs/oldlady.jpg",
+        "position":
+            {
+                "positionLastWeek":21,"peakPosition":1,"weeksOnChart":16
+            }
+    },
+    {
+        "rank":22,
+        "title":"teeth",
+        "size":"30x72 inches",
+        "medium":"charcoal and pastel",
+        "cover":"https://krideout.studio.mcad.edu/portfolio/imgs/teeth.jpg",
+        "position":
+            {
+                "positionLastWeek":5,"peakPosition":5,"weeksOnChart":2
+            }
+    },
+    {
+        "rank":23,
+        "title":"micah",
+        "medium":"charcoal and pastel",
+        "size":"30x72 inches",
+        "cover":"https://krideout.studio.mcad.edu/portfolio/imgs/micah.jpg",
+        "position":
+            {
+                "positionLastWeek":22,"peakPosition":3,"weeksOnChart":7
+            }
+    },
+    {
+        "rank":24,
+        "title":"hijab",
+        "size":"30x72 inches",
+        "medium":"charcoal and pastel",
+        "cover":"https://krideout.studio.mcad.edu/portfolio/imgs/hijab.jpg",
+        "position":
+            {
+                "positionLastWeek":25,"peakPosition":24,"weeksOnChart":3
+            }
+    },
+    {
+        "rank":25,
+        "title":"teen",
+        "size":"30x72 inches",        
+        "medium":"charcoal",
+        "cover":"https://krideout.studio.mcad.edu/portfolio/imgs/teen.jpg",
+        "position":
+            {
+                "positionLastWeek":19,"peakPosition":7,"weeksOnChart":34
+            }
+    },
+    {
+        "rank":26,
+        "title":"man",
+        "medium":"charcoal",
+        "size":"30x72 inches",        
+        "cover":"https://krideout.studio.mcad.edu/portfolio/imgs/man.jpg",
+
+        "position":{"positionLastWeek":46,"peakPosition":26,"weeksOnChart":3}
+    },
+    {
+        "rank":27,
+        "title":"Memories",
+        "medium":"Maroon 5",         
+        "size":"30x72 inches",
+        "cover":"https://krideout.studio.mcad.edu/portfolio/imgs/little-buddy-1.jpg",
+        "position":
+            {
+                "positionLastWeek":23,"peakPosition":16,"weeksOnChart":20
+            }
+    },
+    {
+        "rank":28,
+        "title":"Fine By Time",
+        "medium":"YoungBoy Never Broke Again",         
+        "size":"30x72 inches",
+        "cover":"https://krideout.studio.mcad.edu/portfolio/imgs/micah-rasterize-01.jpg",
+        "position":
+            {
+                "positionLastWeek":null,"peakPosition":28,"weeksOnChart":1
+            }
+    },
+    {
+        "rank":29,
+        "title":"woman hijab",
+        "medium":"Dan + Shay & Justin Bieber",          
+        "size":"30x72 inches",
+        "cover":"https://krideout.studio.mcad.edu/portfolio/imgs/woman-hijab-01.jpg",
+        "position":
+            {
+                "positionLastWeek":20,"peakPosition":3,"weeksOnChart":18
+            }
+    },
+    {
+        "rank":30,
+        "title":"gigi",
+        "medium":"Travis Scott",        
+        "size":"30x72 inches",
+        "cover":"https://krideout.studio.mcad.edu/portfolio/imgs/gigi.jpg",
+        "position":
+            {
+                "positionLastWeek":24,"peakPosition":1,"weeksOnChart":21
+            }
+    },
+    {
+        "rank":31,
+        "title":"No Time To Die",
+        "medium":"Billie Eilish",          
+        "size":"30x72 inches",
+        "cover":" https://krideout.studio.mcad.edu/portfolio/imgs/man-01.jpg",
+        "position"
+        :{"positionLastWeek":6,"peakPosition":6,"weeksOnChart":2}
+    },
+    {
+        "rank":32,
+        "title":"Adore You",
+        "medium":"Harry Styles",
+        "size":"30x72 inches",
+        "cover":"https://krideout.studio.mcad.edu/portfolio/imgs/teethcute.jpg",
+        "position"
+        :{"positionLastWeek":33,"peakPosition":23,"weeksOnChart":10}
+    },
+    {
+        "rank":33,
+        "title":"Knocked Off",
+        "medium":"YoungBoy Never Broke Again",          
+        "size":"30x72 inches",
+        "cover":"https://krideout.studio.mcad.edu/portfolio/imgs/african woman-02.jpg",
+        "position":
+            {
+                "positionLastWeek":null,"peakPosition":33,"weeksOnChart":1
+            }
+    },
+    {
+        "rank":34,
+        "title":"Bad Bad",
+        "medium":"YoungBoy Never Broke Again",         
+        "size":"30x72 inches",
+        "cover":"https://krideout.studio.mcad.edu/portfolio/imgs/Aubuela-digital.jpg",
+        "position"
+        :{"positionLastWeek":null,"peakPosition":34,"weeksOnChart":1}
+    },
+    {
+        "rank":35,
+        "title":"2019 drawing",
+        "medium":"blackbear",         
+        "size":"30x72 inches",
+        "cover":"https://krideout.studio.mcad.edu/portfolio/imgs/2019-drawing.jpg",
+        "position"
+        :{"positionLastWeek":28,"peakPosition":27,"weeksOnChart":18}
+    },
+    {
+        "rank":36,
+        "title":"You should be sad",
+        "medium":"Halsey",         
+        "size":"30x72 inches",
+        "cover":"https://krideout.studio.mcad.edu/portfolio/imgs/close-up-eye.jpg",
+        "position"
+        :{"positionLastWeek":35,"peakPosition":23,"weeksOnChart":7}
+    },
+    {
+        "rank":37,
+        "title":"My Oh My",
+        "medium":"Camila Cabello Featuring DaBaby",          
+        "size":"30x72 inches",
+        "cover":"https://krideout.studio.mcad.edu/portfolio/imgs/flys-bro-inprogress.jpg",
+        "position":
+            {
+                "positionLastWeek":30,"peakPosition":25,"weeksOnChart":9
+            }
+    },
+    {
+        "rank":38,
+        "title":"Bandit",
+        "medium":"Juice WRLD & YoungBoy Never Broke Again",         "size":"30x72 inches",
+        "cover":"https://krideout.studio.mcad.edu/portfolio/imgs/hi-katie-sm.jpg",
+        "position":
+            {
+                "positionLastWeek":32,"peakPosition":1,"weeksOnChart":21
+            }
+    },
+    {
+        "rank":39,
+        "title":"Go Stupid",
+        "medium":"Polo G Featuring NLE Choppa & Stunna 4 Vegas",         "size":"30x72 inches",
+        "cover":"https://krideout.studio.mcad.edu/portfolio/imgs/katie-paintbrush-sm.jpg",
+        "position":
+            {
+                "positionLastWeek":29,"peakPosition":29,"weeksOnChart":2
+            }
+    },
+    {
+        "rank":40,
+        "title":"Suicidal",
+        "medium":"YNW Melly & Juice WRLD",          
+        "size":"30x72 inches",
+        "cover":"https://krideout.studio.mcad.edu/portfolio/imgs/lady.jpg",
+        "position"
+        :{"positionLastWeek":27,"peakPosition":11,"weeksOnChart":12}
+    },
+    {
+        "rank":41,
+        "title":"Sunflower (Spider-Man: Into The Spider-Verse)",
+        "medium":"Post Malone & Swae Lee",         
+        "size":"30x72 inches",
+        "cover":"https://krideout.studio.mcad.edu/portfolio/imgs/warms-paints.jpg",
+        "position":
+            {
+                "positionLastWeek":36,"peakPosition":1,"weeksOnChart":70
+            }
+    },
+    {
+        "rank":42,
+        "title":"The Bones",
+        "medium":"Maren Morris",         
+        "size":"30x72 inches", "cover":"https://krideout.studio.mcad.edu/portfolio/imgs/blue-paints.jpg",
+        "position"
+        :{"positionLastWeek":42,"peakPosition":42,"weeksOnChart":5}
+    },
+    {
+        "rank":43,
+        "title":"Heartless",
+        "medium":"The Weeknd",         
+        "size":"30x72 inches",
+        "cover":"https://charts-static.billboard.com/img/2019/12/the-weeknd-qji-heartless-6te-53x53.jpg",
+        "position"
+        :{"positionLastWeek":null,"peakPosition":2,"weeksOnChart":9}
+    },
+    {
+        "rank":44,
+        "title":"OUT WEST",
+        "medium":"JACKBOYS Featuring Young Thug",         
+        "size":"30x72 inches",
+        "cover":"https://charts-static.billboard.com/img/2020/01/jackboys-000-out-west-v6q-53x53.jpg",
+        "position"
+        :{"positionLastWeek":41,"peakPosition":11,"weeksOnChart":8}
+    },
+    {
+        "rank":45,
+        "title":"Bad Guy",
+        "medium":"Billie Eilish",         
+        "size":"30x72 inches",
+        "cover":"https://charts-static.billboard.com/img/2019/04/billie-eilish-acb-bad-guy-7mt-53x53.jpg",
+        "position"
+        :{"positionLastWeek":37,"peakPosition":2,"weeksOnChart":47}
+    },
+    {
+        "rank":46,
+        "title":"Old Town Road",
+        "medium":"Lil Nas X Featuring Billy Ray Cyrus",         
+        "size":"30x72 inches",
+        "cover":"https://charts-static.billboard.com/img/2019/03/lil-nas-x-zl6-old-town-road-4gg-53x53.jpg",
+        "position":
+            {
+                "positionLastWeek":39,"peakPosition":1,"weeksOnChart":50
+            }
+    },
+    {
+        "rank":47,
+        "title":"Forever",
+        "medium":"Justin Bieber Featuring Post Malone & Clever",         "size":"30x72 inches",
+        "cover":"https://charts-static.billboard.com/img/2020/02/justin-bieber-4oh-forever-tyd-53x53.jpg",
+        "position":
+            {
+                "positionLastWeek":11,"peakPosition":11,"weeksOnChart":2
+            }
+    },
+    {
+        "rank":48,
+        "title":"WHATS POPPIN",
+        "medium":"Jack Harlow",         
+        "size":"30x72 inches",
+        "cover":"https://charts-static.billboard.com/img/2020/02/jack-harlow-ft9-whats-poppin-ddu-53x53.jpg",
+        "position"
+        :{"positionLastWeek":null,"peakPosition":48,"weeksOnChart":1}
+    },
+    {
+        "rank":49,
+        "title":"RIP Lil Phat",
+        "medium":"YoungBoy Never Broke Again",         
+        "size":"30x72 inches",
+        "cover":"https://charts-static.billboard.com/img/2020/03/youngboy-never-broke-again-cu3-rip-lil-phat-9rv-53x53.jpg",
+        "position":
+            {
+                "positionLastWeek":null,"peakPosition":49,"weeksOnChart":1
+            }
+    },
+    {
+        "rank":50,
+        "title":"Moral Of The Story",
+        "medium":"Ashe",         
+        "size":"30x72 inches",
+        "cover":"https://charts-static.billboard.com/img/2020/03/ashe-000-moral-of-the-story-hfp-53x53.jpg",
+        "position"
+        :{"positionLastWeek":null,"peakPosition":50,"weeksOnChart":1}
+    }
+]

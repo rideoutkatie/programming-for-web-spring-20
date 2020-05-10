@@ -1,0 +1,43 @@
+html {
+	font-family: sans-serif;
+}
+
+.track-wrapper {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.track {
+	width: 120px;
+	border: 1px solid black;
+	background: white;
+	text-align: center;
+	padding: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 5px 0;
+}
+.track h3 {
+	margin: 0;
+	font-size: 14px;
+}
+.track img {
+	width: 100%;
+	max-width: 53px;
+}
+/*
+.track.no-change {
+	border-color: blue;
+}
+.track.down {
+	border-color: red;
+}
+
+.track.up {
+	border-color: green;
+}
+*/
+
